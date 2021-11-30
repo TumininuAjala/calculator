@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(to right, #dfa60c,#9d0191);
+    
+}
+#output{
+    height: 70px;
+    text-align: center;
+    padding: 16px 8px;
+    width: 380px;
+    font-size: 32px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#all{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px;
+   
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+   
+}
+
+button{
+    border: 0.5px solid black;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+    background-color:purple;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s ease-out;
+}
+button .equal{
+    border: 0.5px solid black;
+    line-height: 70px;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.buttons button .equal:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s ease-out;
+}
